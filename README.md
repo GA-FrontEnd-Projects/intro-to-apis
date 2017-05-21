@@ -32,4 +32,4 @@ We will be experimenting with the (Giphy)[https://giphy.com/] API today, which o
 
 11) Explore the different configuration options for each of the endpoints in the API documentation and experiment with different values for each of the options. You can change the number of results a given call returns, which language to pull restults from, their content rating, and more.
 
-12) If you finish the above steps early, or if you would like extra practice on your own, try creating pagination links that navigate through the pages of search results. The buttons should be generated based on the data in the API response rather than being hard-coded.
+12) If you finish the above steps early, or if you would like extra practice on your own, try creating pagination links that navigate through the pages of search results. The links should be generated based on the data in the API response rather than being hard-coded. Note that the API will only return between 25 and 100 items per call, so we will need to make additional calls to the API to get new results.

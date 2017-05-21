@@ -1,7 +1,7 @@
 # Introduction to APIs
 Learn the basics of APIs using the Giphy API
 
-The term API (meaning Application Program Interface) refers to a protocol for interacting with a library or tool. For the purpose of this exercise, we're going to focus on external APIs, which are tools that popular applications make available for third-party developers to access the data and functionality of the application.
+The term API (meaning Application Program Interface) refers to a protocol for interacting with a library or tool. For the purpose of this exercise, we're going to focus on web APIs, which are tools that popular applications make available to allow third-party developers to access the data and functionality of the application.
 
 Most APIs these days are RESTful APIs. REST (Representational State Transfer) describes the manner in which we interact with the API, which is by passing arguments via HTTP/HTTPS (mostly in the URL, but also through request headers and through POST or PUT data for operations that change data on the server). For a full explanation of what REST entails, read (this article)[https://www.sitepoint.com/developers-rest-api/].
 
@@ -14,7 +14,7 @@ We will be experimenting with the (Giphy)[https://giphy.com/] API today, which o
 
 2) Open the index.html and script.js files in Sublime or another editor. All the HTML and CSS you'll need for this project has been written for you, but you will need to reference index.html in order to write the necessary JavaScript to complete this exercise.
 
-3) Create an event handler for the form on the page. Instead of the page reloading, display an alert box that says "Form submitted" on submit.
+3) Create an event handler for the `submit` event for the form on the page. Instead of the page reloading, display an alert box that says "Form submitted" on submit.
 
 4) Change the alert message to "Form submitted with search term: {term}", replacing "{term}" with the text entered in the text field, saved as a variable named searchTerm.
 
@@ -31,3 +31,5 @@ We will be experimenting with the (Giphy)[https://giphy.com/] API today, which o
 10) Change the endpoint for our search operation to Giphy's "search" endpoint. Clear out the GIFs that we displayed from the "random" endpoint call before adding the GIFs returned by the search call. The format of the data returned from this endpoint is the same as the "trending" endpoint.
 
 11) Explore the different configuration options for each of the endpoints in the API documentation and experiment with different values for each of the options. You can change the number of results a given call returns, which language to pull restults from, their content rating, and more.
+
+12) If you finish the above steps early, or if you would like extra practice on your own, try creating pagination links that navigate through the pages of search results. The buttons should be generated based on the data in the API response rather than being hard-coded.

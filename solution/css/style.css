@@ -16,3 +16,11 @@ h1 {
 	background-color: #000;
 	margin-bottom: 20px;
 }
+#pagination-links-container {
+	margin-bottom: 50px;
+}
+#pagination-links-container a {
+	display: block;
+	float: left;
+	margin-right: 5px;
+}

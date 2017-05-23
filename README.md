@@ -3,14 +3,14 @@ Learn the basics of APIs using the Giphy API
 
 The term API (meaning Application Program Interface) refers to a protocol for interacting with a library or tool. For the purpose of this exercise, we're going to focus on web APIs, which are tools that popular applications make available to allow third-party developers to access the data and functionality of the application.
 
-Most APIs these days are RESTful APIs. REST (Representational State Transfer) describes the manner in which we interact with the API, which is by passing arguments via HTTP/HTTPS (mostly in the URL, but also through request headers and through POST or PUT data for operations that change data on the server). For a full explanation of what REST entails, read (this article)[https://www.sitepoint.com/developers-rest-api/].
+Most APIs these days are RESTful APIs. REST (Representational State Transfer) describes the manner in which we interact with the API, which is by passing arguments via HTTP/HTTPS (mostly in the URL, but also through request headers and through POST or PUT data for operations that change data on the server). For a full explanation of what REST entails, read [this article](https://www.sitepoint.com/developers-rest-api/).
 
 Many APIs require consumers (users) to register for an account and pass some form of identification with each request. This can take the form of an authentication token (something that lets the server know we have an active, valid session) or an API key, or an API key and "secret", or some combination of the three. This helps make sure that users who abuse the API (sending too many requests too quickly or otherwise breaching the terms of service) can be spotted quickly by the API provider and their access can be revoked.
 
-We will be experimenting with the (Giphy)[https://giphy.com/] API today, which offers a public "beta" key that we can use for our exercise.
+We will be experimenting with the [Giphy](https://giphy.com/) API today, which offers a public "beta" key that we can use for our exercise.
 
 
-1) Open the (Giphy API documentation)[https://github.com/Giphy/GiphyAPI] in your browser.
+1) Open the [Giphy API documentation](https://github.com/Giphy/GiphyAPI) in your browser.
 
 2) Open the index.html and script.js files in Sublime or another editor. All the HTML and CSS you'll need for this project has been written for you, but you will need to reference index.html in order to write the necessary JavaScript to complete this exercise.
 

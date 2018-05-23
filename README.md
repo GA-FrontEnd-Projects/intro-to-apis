@@ -10,7 +10,7 @@ Many APIs require consumers (users) to register for an account and pass some for
 We will be experimenting with the [Giphy](https://giphy.com/) API today, which offers a public "beta" key that we can use for our exercise.
 
 
-1) Open the [Giphy API documentation](https://github.com/Giphy/GiphyAPI) in your browser.
+1) Open the [Giphy API documentation](https://developers.giphy.com/docs/) in your browser.
 
 2) Open the index.html and script.js files in Sublime or another editor. All the HTML and CSS you'll need for this project has been written for you, but you will need to reference index.html in order to write the necessary JavaScript to complete this exercise.
 

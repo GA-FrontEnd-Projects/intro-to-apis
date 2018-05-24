@@ -18,7 +18,7 @@ We will be experimenting with the [Giphy](https://giphy.com/) API today, which o
 
 4) Change the alert message to "Form submitted with search term: {term}", replacing "{term}" with the text entered in the text field, saved as a variable named searchTerm.
 
-5) Remove the alert and instead make an Ajax call to the Giphy API's "random" endpoint when the form is submitted. Refer to the Giphy documentation to find that URL. 
+5) Remove the alert and instead make an Ajax call to the Giphy API's "random" endpoint when the form is submitted. Refer to the Giphy documentation to find that URL.
 
 NOTE: Make sure you're developing in an http environment. If you opened index.html by double-clicking or by dragging the file from Sublime or another editor into your browser, you'll encounter a CORS problem at this point. You can use [Web Server For Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en) to set up a simple server for your project.
 

@@ -18,13 +18,10 @@ We will be experimenting with the [Giphy](https://giphy.com/) API today, which o
 
 4) Change the alert message to "Form submitted with search term: {term}", replacing "{term}" with the text entered in the text field, saved as a variable named searchTerm.
 
-5) Remove the alert and instead make an Ajax call to the Giphy API's "random" endpoint when the form is submitted. Refer to the Giphy documentation to find that URL.
-
-  NOTE: Make sure you're developing in an http environment. If you opened index.html by double-clicking or by dragging the file from Sublime or another editor into your browser, you may encounter a CORS problem at this point. You can use [Web Server For Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en) to set up a simple server for your project.
-
-  Look at the information in the Network tab in your inspector to see what the API call returns. Note the structure of the URL -- what does each part of the URL represent?
-
-  The `$.ajax` method takes arguments in a number of different orders, but make sure that you're passing in an object literal as one of the arguments, and in that object, add a key called `success` whose value is an anonymous function. `success` is essentially an event handler that runs after the Ajax call comes back (also called a callback). Its first argument represents the body of the response from the server. Call this argument `data` and log its contents in the console to see what is returned.
+5) Remove the alert and instead make an Ajax call to the Giphy API's "random" endpoint when the form is submitted. Refer to the Giphy documentation to find that URL.  
+NOTE: Make sure you're developing in an http environment. If you opened index.html by double-clicking or by dragging the file from Sublime or another editor into your browser, you may encounter a CORS problem at this point. You can use [Web Server For Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en) to set up a simple server for your project.  
+Look at the information in the Network tab in your inspector to see what the API call returns. Note the structure of the URL -- what does each part of the URL represent?  
+The `$.ajax` method takes arguments in a number of different orders, but make sure that you're passing in an object literal as one of the arguments, and in that object, add a key called `success` whose value is an anonymous function. `success` is essentially an event handler that runs after the Ajax call comes back (also called a callback). Its first argument represents the body of the response from the server. Call this argument `data` and log its contents in the console to see what is returned.
 
 6) If the `data.meta.status` value is equal to 200 (the indication that your request was successfully processed) take the `data.fixed_width_downsampled_url` argument from the returned object and create an `img` tag using that URL. Place it inside `#gif-gallery-container`.
 
